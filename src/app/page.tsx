@@ -4,7 +4,7 @@ import CarPhoto from "./_components/CarPhoto";
 export default function Home() {
   const InitialVl = {
     model: "",
-    search: "HELLOW",
+    search: "",
   };
   return (
     <main className="container py-5">
@@ -38,9 +38,7 @@ export default function Home() {
           </section>
         </section>
 
-
-
-{/* about us */}
+        {/* about us */}
         <section id="about-us" className="card border-light">
           <section className="mt-4 card-body">
             <section className="row g-3">
