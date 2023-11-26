@@ -4,14 +4,12 @@ import Car from "@/app/_components/Car";
 import FallingUi from "@/app/_components/FallingUi";
 
 type cars_props = {
-  children: React.ReactNode;
-  car_id: string;
   params: {
     car_id: string;
   };
 };
 
-const page = ({ params }: cars_props) => {
+const CarPage = ({ params }: cars_props) => {
   return (
     <Suspense fallback={<FallingUi />}>
       <Car car_id={params.car_id} />
@@ -19,4 +17,4 @@ const page = ({ params }: cars_props) => {
   );
 };
 
-export default page;
+export default CarPage;
