@@ -69,7 +69,7 @@ export default function Home() {
                     <h5 className="text-blue">Our Story</h5>
                     <p>
                       Our narrative is one of resilience and ambition.
-                      Originating in Dar es Salaam, John Smith's dream grew from
+                      Originating in Dar es Salaam, John Smith dream grew from
                       a modest endeavor into a symbol of unparalleled automotive
                       excellence.
                     </p>
